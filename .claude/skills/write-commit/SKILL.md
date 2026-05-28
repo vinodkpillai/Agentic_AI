@@ -12,6 +12,12 @@ I've made some code changes. Write a concise commit message that:
 2. Is one sentence, under 72 characters
 3. Explains the "why", not just the "what"
 
-Use `git diff HEAD` and `git status` to see what changed before writing the message.
+Here is the current state of the working tree:
 
-Provide only the commit message, nothing else.
+!`git status`
+
+And here is the diff (staged + unstaged changes):
+
+!`git diff HEAD`
+
+Provide **only** the commit message itself — no preamble, no explanation.
